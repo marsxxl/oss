@@ -1,0 +1,61 @@
+{
+  "name": "SVG Logos",
+  "display_name": "SVG Logos 品牌与服务图标集",
+  "url": "https://icon-sets.iconify.design/logos/",
+  "iconify_prefix": "logos",
+  "github_url": "https://github.com/gilbarbara/logos",
+  "checked_at": "2026-07-21",
+  "description": "彩色品牌Logo集合，适合品牌墙、服务选择器、技术栈展示、VPS与云服务列表，以及产品集成页面。",
+  "coverage": [
+    "AI与大模型服务",
+    "Apple及常用品牌",
+    "VPS与云服务",
+    "托管平台",
+    "编程语言",
+    "数据库",
+    "开发框架",
+    "设计工具",
+    "操作系统",
+    "社交与在线服务"
+  ],
+  "example_keywords": [
+    "Claude",
+    "Apple",
+    "AWS",
+    "Google Cloud",
+    "Microsoft Azure",
+    "DigitalOcean",
+    "Cloudflare",
+    "Vercel",
+    "Docker",
+    "Linux"
+  ],
+  "formats": [
+    "SVG",
+    "Iconify CDN",
+    "Iconify API",
+    "React",
+    "Vue",
+    "Svelte",
+    "Web Component"
+  ],
+  "style": {
+    "type": "彩色品牌Logo",
+    "color": "通常保留品牌官方配色",
+    "recommended_background": "根据具体Logo选择浅色或深色背景"
+  },
+  "license": {
+    "collection_license": "CC0-1.0",
+    "license_url": "https://github.com/gilbarbara/logos/blob/main/LICENSE.txt",
+    "commercial_use": true,
+    "note": "图标集合采用CC0-1.0；品牌名称、商标和Logo仍可能受各品牌商标政策约束。正式商用前应核对对应品牌指南。"
+  },
+  "usage_examples": {
+    "iconify_icon_name": "logos:apple",
+    "svg_cdn_pattern": "https://api.iconify.design/logos/{icon-name}.svg",
+    "svg_cdn_example": "https://api.iconify.design/logos/apple.svg",
+    "html": "<img src=\"https://api.iconify.design/logos/apple.svg\" width=\"32\" height=\"32\" alt=\"Apple\">",
+    "react": "import { Icon } from '@iconify/react';\n<Icon icon=\"logos:apple\" width={32} />"
+  },
+  "recommendation": "如果需要彩色的品牌和常用服务Logo，SVG Logos 比单色的 Simple Icons 更直观；通过 Iconify 可直接搜索、复制SVG或使用组件。"
+}
